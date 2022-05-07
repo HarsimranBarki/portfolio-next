@@ -1,7 +1,11 @@
+import Hero from "../components/Hero";
+import Navbar from "../components/layouts/Navbar";
+
 export default function Home() {
   return (
-    <div>
-      <button className="text-red-500">Hello</button>
+    <div className="bg-white h-screen">
+      <Navbar />
+      <Hero />
     </div>
   );
 }
